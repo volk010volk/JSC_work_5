@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x;
+
+        // Задача 1
+        // function sayError1() {
+        //     alert("Some error occurred!");
+        // }
+        // sayError();
+
+        // Задача 2
+        // x = "Out of memory"
+        // function sayError2(errorMessage) {
+        //     alert("Error \"" + errorMessage + "\" occured !");
+        // }
+        // sayError2(x);
+
+        // Задача 3
+            // x = +prompt("Введите кол-во заголовков:");
+            // function createHeaders(N) {
+            //     for (i = 0; i < N; i++) 
+            //         document.write("<h2>Header " + (i+1) + "</h2>");
+            // }
+            // createHeaders (x);
+
+        // Задача 4
+            // x = prompt ("Введите пароль:")
+            // function checkPassword(enteredPassword) {
+            //     if (enteredPassword == "Step" || enteredPassword == "Web" || enteredPassword == "JavaScript")
+            //         return true;
+            //     else
+            //         return false;
+            // }
+
+            // if (checkPassword (x))
+            //     alert ("Right password!");
+            // else
+            //     alert("Wrong password");
+
+            // Задача 5
+            // x = +prompt ("Введите число:")
+            // function sign(eneredNumber) {
+            //     if (enteredNumber > 0)
+            //         return 1;
+            //     else
+            //         if (enteredNumber < 0)
+            //             return -1;
+            //         else
+            //             return 0;
+            // }
+            // alert("Знак вашего числа" + sign(x));
+
+            // Задача 6
+            x = +prompt ("Введите номер от 0-6:")
+            function dayOfTheWeek(dayNumber) {
+                switch (dayNumber) {
+                    case 0: return "Sunday"; break;
+                    case 1: return "Monday"; break;
+                    case 2: return "Tuesday"; break;
+                    case 3: return "Wednesday"; break;
+                    case 4: return "Thursday"; break;
+                    case 5: return "Friday"; break;
+                    case 6: return "Saturday"; break;
+                    default: return "Error";
+                }
+            }
+            alert (dayOfTheWeek(x));
+            
+
+
+
+
+    </script>
+</body>
+</html>
